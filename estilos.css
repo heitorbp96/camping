@@ -1,0 +1,242 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+:root {
+    --text-base: #afb6c2;
+    --text-title: #d4ccb6;
+    --background: #191816;
+    --form-background: #24221f;
+    --primary-color: #ffc632;
+}
+
+body {
+    display: flex;
+}
+
+.box1 {
+    display: flex;
+    width: 50vw;
+    background-color: var(--background);
+    justify-content: center;
+    align-items: center;
+}
+
+fieldset {
+    display: flex;
+    width: 572px;
+    height: 512px;
+
+    background-color: var(--form-background);
+    border: none;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+}
+
+.box-fieldset {
+    display: flex;
+    flex-direction: column;
+    max-width: 334px;
+}
+
+pre {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--text-base);
+    margin: 0px 0px 35px 0px;
+    
+}
+
+.titulo {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 18px;
+
+    font-size: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    color: var(--text-title);
+}
+
+.titulo img {
+    width: 24px;
+    margin-right: 14px;
+}
+
+/* p {
+    font-size: large;
+    font-family: 'roboto';
+    font-weight: 500;
+    font-size: 2.44vh;
+    font-style: normal;
+    line-height: 3.66vh;
+    color: var(--text-base);
+    margin-bottom: 39px;
+} */
+
+.boxinput {
+    display: flex;
+    border: 1px solid var(--text-base);
+    background: none;
+    height: 44px;
+    border-radius: 4px;
+    margin-bottom: 25px;
+}
+
+.boxinput:focus-within{
+    border: var(--primary-color);
+    border-width: 2px;
+    border-style: solid;
+}
+
+.boxinput2:focus-within{
+    border: var(--primary-color);
+    border-width: 2px;
+    border-style: solid;
+}
+
+.boxinput2 {
+    display: flex;
+    border: solid;
+    border-width: 1px;
+    border-color: var(--text-base);
+    background: none;
+    max-width: 334px;
+    height: 44px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+.boxinput img {
+    width: 5%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.boxinput2 img {
+    width: 5%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.boxinput input {
+    width: 100%;
+    border: none;
+    background: none;
+    
+    
+}
+
+.boxinput2 input {
+    width: 100%;
+    border: none;
+    background: none;
+}
+
+#email:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+    color: var(--primary-color);
+    
+}
+
+.boxinput input:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+    
+    
+}
+
+.boxinput2 input:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+
+    
+}
+
+label {
+    border: none;
+    background-color: none;
+    color: var(--text-base);
+    font-family: 'poppins', sans-serif;
+    margin-bottom: 8px;
+}
+
+.lembrar_senha {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 10%;
+    color: var(--text-base);
+    font-family: 'poppins', sans-serif;
+    margin-bottom: 20px;
+}
+
+.lembrar_senha a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.checkbox input{
+    border-right: 1px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    
+}
+
+#submit {
+    text-align: center;
+    min-height: 51px;
+    max-width: 334px;
+    background-color: var(--primary-color);
+    border: none;
+    color: var(--form-background);
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 4px;
+    margin-bottom: 19px;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer label {
+    display: flex;
+    color: var(--primary-color);
+    font-size: 0.875rem;
+    font-weight: large;
+    align-items: center;
+}
+
+footer a {
+    display: flex;
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+footer strong {
+    font-size: 0.875rem;
+}
+
+.boximg {
+    display: flex;    
+    width: 50vw;
+}
+
